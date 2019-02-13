@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f0d8;
+}
+
+#elements{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    /* background-color: blue; */
+    height: 35%;
+}
+
+#button-holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    /* background-color: green; */
+}
+
+#button-holder > button{
+    margin: 15px;
+    min-width: 150px;
+    height: 80px;
+    font-size: 32pt;
+    /* background-color: ;  */
+    padding: 5px;
+    text-transform: capitalize;
+}
+
+.allButtons{
+    border-radius: 10px;
+}
+
+.blackButton{
+    color: white;
+}
+
+.individualColor{
+    text-transform: capitalize;
+}
+
+#select-color{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: red; */
+}
+
+#select-color *{
+    margin: 15px;
+    font-size: 24pt;
+}
+
+#color-selector{
+    text-transform: capitalize;
+    justify-content: center;
+}
+
+#remove-button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: black; */
+}
+
+#remove-button > button{
+    font-size: 24pt;
+    margin: 15px;
+}
+
